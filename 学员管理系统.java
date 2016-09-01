@@ -2,16 +2,7 @@ package managesystem;
 
 import java.util.Scanner;
 public class Managerwork {
-	public static void main(String[] args){
-		System.out.println("欢迎使用学员通讯录管理系统");
-		System.out.println("制作人：朱齐");
-		System.out.println("1.登录\n2.注册\n3.找回密码\n0.注销");
-		Scanner input=new Scanner(System.in);
-		int a=input.nextInt();
-		Managerwork sc=new Managerwork();
-		sc.interface1(a);
-		input.close();
-	}	
+
 	Scanner input=new Scanner(System.in);
 	int Maxlength=0;//已存学员的数量
 	 Student[] students=new Student[100];
@@ -346,3 +337,24 @@ public class Student {
 	}
 
 }
+
+
+
+package managesystem;
+
+import java.util.Scanner;
+
+public class test {
+
+	public static void main(String[] args){
+		System.out.println("欢迎使用学员通讯录管理系统");
+		System.out.println("制作人：朱齐");
+		System.out.println("1.登录\n2.注册\n3.找回密码\n0.注销");
+		Scanner input=new Scanner(System.in);
+		int a=input.nextInt();
+		Manager sc=new Manager();
+		sc.interface1(a);
+		input.close();
+}
+	}
+
