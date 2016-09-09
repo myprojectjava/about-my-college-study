@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>The weather forecast</title>
+</head>
+<body>
+  <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=55" style="border:solid 1px #7ec8ea" width="255" height="294" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  <br />
+  <br />
+  <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=8&num=3"  width="225" height="80" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  <br />
+  <br />
+  <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=9" width="500" height="60" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  <br />
+  <br />
+  <iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=13" width="650" height="221" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+  <br />
+  <br />
+	<iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=57" width="650" height="620" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+	<br />
+	<br />
+	<br />
+	<iframe name="weather_inc" src="http://i.tianqi.com/index.php?c=code&id=64" width="540" height="291" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</body>
+</html>
